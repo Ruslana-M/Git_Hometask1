@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 15%;
+    background-color: rgb(243, 244, 167);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+
+    box-shadow: 2px 1px 3px lightslategray;
+}
+ion-icon{
+    font-size: 32px;
+    margin-left: 10px;
+}
+.navbar img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
